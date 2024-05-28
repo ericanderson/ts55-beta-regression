@@ -1,0 +1,13 @@
+{
+  "name": "dep",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "type": "module"
+}

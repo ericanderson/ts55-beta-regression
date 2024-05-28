@@ -1,0 +1,17 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  dep: {}
+
+  main:
+    dependencies:
+      dep:
+        specifier: workspace:*
+        version: link:../dep
